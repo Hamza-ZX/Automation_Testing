@@ -61,7 +61,7 @@ Follow these steps to run the tests locally:
      
      ```bash
         npx cypress run --spec {fileRelativePath} --headed
-     Example: npx cypress run --spec  cypress\e2e\HolidaysLeave.cy.js --headed
+        Example: npx cypress run --spec  cypress\e2e\HolidaysLeave.cy.js --headed
      ```
 
 
