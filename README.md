@@ -26,8 +26,16 @@ Follow these steps to run the tests locally:
    git clone https://github.com/your-repo/Automation-Hands-On.git
 
 2. **Install Dependencies**:
-   - Install Cypress
-   - Install Node
    - Configure your IDE (VsCode)
+     
+   - Install Node and Node packages 
+        ```bash
+      npm install
+        
+   - Install Cypress
+       ```bash
+       npm install cypress --save-dev
+       
+   
 
 
