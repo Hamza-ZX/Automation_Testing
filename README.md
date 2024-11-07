@@ -31,6 +31,29 @@ Beyond UI visibility, **E2E tests** are automated to verify the complete workflo
   
 By covering all these aspects—**UI visibility**, **E2E workflows**, and **component-level interactions**—the test automation suite ensures a robust and reliable user experience for the OrangeHRM website.
 
+## Some Other Automation Tests
+
+In addition to the OrangeHRM website test automation, other types of automation tests are also implemented for different applications and workflows. This includes tests for a **banking application**, **forms** testing, and **data-driven testing** using fixtures or object collections.
+
+### 1. Banking Application Testing
+Automated test scripts are written to validate the functionality of key features in the **banking application**. These tests cover the following areas:
+
+- **Account creation and management**: Verifying the account creation process, including validations for required fields.
+- **Transactions**: Automating tests to simulate deposits, withdrawals, and transfers between accounts.
+- **Balance checks**: Ensuring the balance updates correctly after each transaction.
+
+### 2. Form Testing
+Automated tests are created to validate the behavior of various **forms**. These tests ensure that the forms are functioning correctly and that user inputs are handled as expected:
+
+- **Form field validation**: Verifying that required fields and validations work as expected.
+- **Error handling**: Ensuring the application correctly handles invalid inputs, such as non-numeric data in a field that expects numbers.
+  
+### 3. Data-Driven Testing using Fixtures/Collections
+For more complex form testing, **data-driven testing** is implemented. This allows tests to run with different sets of input data, typically stored in **fixtures** or **object collections**. This helps ensure that the application can handle a wide variety of inputs and edge cases. This includes:
+
+- **Fixture datasets**: Using JSON, CSV, or other data files to feed input data to the forms.
+- **Object collections**: Creating test objects or collections of objects to simulate complex data inputs and test multiple scenarios.
+  
 ## Where to View Test Scripts
 
 To view the test scripts:
