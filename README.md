@@ -21,6 +21,7 @@ Some of the scripts are **data-driven** and take test data from the fixtures loc
 Follow these steps to run the tests locally:
 
 1. **Clone the Repository**:
+   
    - Clone the repository to your local machine using the following command:
    ```bash
    git clone https://github.com/your-repo/Automation-Hands-On.git
@@ -37,7 +38,7 @@ Follow these steps to run the tests locally:
        ```bash
        npm install cypress --save-dev
        
-4. **Execute your Test cases**
+3. **Execute your Test cases**
    
    - Through Cypress App
      ```bash
@@ -46,7 +47,7 @@ Follow these steps to run the tests locally:
      
    - Through Commands (My Personal Preference)
      
-     In order to run your test cases in headless mode with no GUI you can write the following command:
+     In order to run your test cases in headless mode with no GUI you can write the following command
      ```bash
         npx cypress run
      ```
@@ -54,6 +55,13 @@ Follow these steps to run the tests locally:
      And to view your test scripts in full headed GUI mode you can simply type this on your terminal
      ```bash
         npx cypress run --headed
+     ```
+
+     To run a specific .cyJs test file, you can go with this
+     
+     ```bash
+        npx cypress run --spec {fileRelativePath} --headed
+     Example: npx cypress run --spec  cypress\e2e\HolidaysLeave.cy.js --headed
      ```
 
 
