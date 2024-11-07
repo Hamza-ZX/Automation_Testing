@@ -1,0 +1,21 @@
+[
+{
+    "Email": "hamza1234@gmail.com",
+    "Password": "hamza12345678",
+    "CPassword": "hamza12345678"
+}
+,
+{
+    "Email": "hamza2355@gmail.com",
+    "Password": "hasdasdasf78",
+    "CPassword": "hamza12345678"
+}
+,
+{
+    "Email": "hamza@",
+    "Password": "hamza12345678",
+    "CPassword": "hamza12345678"
+}
+
+
+]

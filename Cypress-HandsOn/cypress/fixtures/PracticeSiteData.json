@@ -1,0 +1,27 @@
+[
+
+{
+    "username": "practice",
+    "password": "SuperSecretPassword!",
+    "EOP": "You logged into a secure area!"
+}
+,
+{
+    "username": "fdgdfggd",
+    "password": "sdfsdgdsgsdfsdf",
+    "EOP": "Your username is invalid!"
+}
+,
+{
+    "username": "ssfgfddsf",
+    "password": "SuperSecretPassword!",
+    "EOP": "Your username is invalid!"
+}
+,
+{
+    "username": "practice",
+    "password": "saddsgdsdfsdfs",
+    "EOP": "Your password is invalid!"
+}
+
+]

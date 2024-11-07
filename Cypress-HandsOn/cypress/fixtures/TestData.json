@@ -1,0 +1,25 @@
+[
+{
+    "username": "Admin",
+    "password": "admin123",
+    "EOP": "Dashboard"
+}
+,
+{
+    "username": "Admin123",
+    "password": "admin123",
+    "EOP": "OrangeHRM"
+}
+,
+{
+    "username": "Ad",
+    "password": "asds",
+    "EOP": "OrangeHRM"
+}
+,
+{
+    "username": "Admin",
+    "password": "admin",
+    "EOP": "OrangeHRM"
+}
+]
