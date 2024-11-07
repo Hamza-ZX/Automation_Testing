@@ -24,3 +24,10 @@ Follow these steps to run the tests locally:
    - Clone the repository to your local machine using the following command:
    ```bash
    git clone https://github.com/your-repo/Automation-Hands-On.git
+
+2. **Install Dependencies**:
+   - Install Cypress
+   - Install Node
+   - Configure your IDE (VsCode)
+
+
