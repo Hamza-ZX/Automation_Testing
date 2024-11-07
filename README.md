@@ -22,10 +22,9 @@ Follow these steps to run the tests locally:
 
 1. **Clone the Repository**:
    
-   - Clone the repository to your local machine using the following command:
-     
-   ```bash
-   git clone https://github.com/your-repo/Automation-Hands-On.git
+   - Clone the repository to your local machine using the following command: <br>
+      ```bash
+      git clone https://github.com/your-repo/Automation-Hands-On.git
 
 2. **Install Dependencies**:
    
