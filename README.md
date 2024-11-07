@@ -26,6 +26,7 @@ Follow these steps to run the tests locally:
    git clone https://github.com/your-repo/Automation-Hands-On.git
 
 2. **Install Dependencies**:
+   
    - Configure your IDE (VsCode)
      
    - Install Node and Node packages 
@@ -36,16 +37,20 @@ Follow these steps to run the tests locally:
        ```bash
        npm install cypress --save-dev
        
-3. **Execute your Test cases**
+4. **Execute your Test cases**
+   
    - Through Cypress App
      ```bash
         npx cypress open
      ```
+     
    - Through Commands (My Personal Preference)
+     
      In order to run your test cases in headless mode with no GUI you can write the following command:
      ```bash
         npx cypress run
      ```
+     
      And to view your test scripts in full headed GUI mode you can simply type this on your terminal
      ```bash
         npx cypress run --headed
